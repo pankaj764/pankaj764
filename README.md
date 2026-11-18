@@ -1,0 +1,149 @@
+<div align="center">
+
+# Hey, I'm Pankaj 👋
+### **Forward Deployed Engineer · AI Solutions · Full-Stack Systems**
+
+*I build software that connects AI, business workflows, and production systems.*
+
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pankaj-842b00230)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:leecory121@gmail.com)
+[![Location](https://img.shields.io/badge/Pune%2C%20India-1E293B?style=for-the-badge&logo=google-maps&logoColor=white)](#)
+[![Company](https://img.shields.io/badge/SuperGaming-FF4500?style=for-the-badge&logo=google-play&logoColor=white)](https://www.supergaming.com/)
+
+</div>
+
+---
+
+### 📌 About Me
+
+I am a **Forward Deployed Engineer** with a passion for architecting and deploying end-to-end technology solutions. My experience spans LLM-powered applications, distributed backend architectures, full-stack platforms, high-throughput gaming ecosystems, and custom e-commerce infrastructure.
+
+I specialize in taking products from an operational bottleneck to a resilient, production-ready system — handling everything from technical discovery and systems design to hands-on implementation, cloud deployment, and continuous performance iteration.
+
+- 💼 **Current Role:** Community Tech Specialist at **[SuperGaming](https://www.supergaming.com/)**
+- 📍 **Location:** Pune, India
+- 📧 **Direct Contact:** [leecory121@gmail.com](mailto:leecory121@gmail.com)
+- 🔗 **Professional Profile:** [LinkedIn](https://linkedin.com/in/pankaj-842b00230)
+
+---
+
+### 🚀 What I Work On
+
+- 🤖 **AI & LLM Solutions:** Production-grade RAG pipelines, semantic embeddings, vector databases, tool-enabled AI agents, and Model Context Protocol (MCP) integrations.
+- ⚡ **Full-Stack Development:** Responsive, scalable applications built with Next.js, React, Node.js, and TypeScript/Python.
+- 🛠️ **Backend Systems & Microservices:** Resilient REST APIs, RBAC authentication, PostgreSQL data modeling, Redis caching & message queues, and webhook processing.
+- ☁️ **Cloud Infrastructure & DevOps:** Azure Linux VM deployments, Docker container orchestration, CI/CD automation, PM2 process management, and scheduled worker jobs.
+- 💡 **Product & Systems Engineering:** Bridging complex business operations with scalable software, automation workflows, and internal tooling.
+
+---
+
+### 🛠️ Tech Stack
+
+| Domain | Technologies & Frameworks |
+| :--- | :--- |
+| **Languages** | Python, TypeScript, JavaScript, SQL, HTML5, CSS3 |
+| **AI / LLMs** | OpenAI API, Anthropic Claude, Google Gemini, LangChain, RAG Pipelines, Vector Search, AI Agents, MCP |
+| **Frontend** | Next.js, React, Tailwind CSS, Responsive Web Design |
+| **Backend** | Node.js, NestJS, FastAPI, Django, Express.js, RESTful APIs |
+| **Databases & Cache** | PostgreSQL, Prisma ORM, MikroORM, Supabase, Redis, BullMQ |
+| **Cloud & DevOps** | Microsoft Azure, Docker & Docker Compose, Vercel, Railway, Linux, PM2, GitHub Actions, Nginx |
+| **E-Commerce & Payments** | Medusa.js, PhonePe, Razorpay, CCAvenue, PayU, Juspay, Stripe |
+| **Logistics & Messaging** | Shiprocket API, Nodemailer (SMTP), BytePaper / AiSensy WhatsApp API |
+
+---
+
+### 📈 Proven Impact & Outcomes
+
+<div align="center">
+
+| Metric | Achievement |
+| :---: | :---: |
+| 👥 **58,000+** | Webshop User Signups |
+| 💳 **17,611+** | Successfully Processed Transactions |
+| 🎯 **13.72%** | Signup-to-Paying Conversion Rate |
+| 📈 **45%** | Total Game Revenue Driven via Webshop |
+| 🌐 **100K+** | Community Members Supported through Operational Workflows |
+
+</div>
+
+---
+
+### 💻 Featured Projects
+
+#### 🤖 SuperX Support — AI-Powered Player Support
+AI-assisted player support infrastructure integrating LLM intelligence into real-time live gaming support operations.
+- **Core Architecture:** Retrieval-Augmented Generation (RAG) with vector embeddings for instant knowledge retrieval.
+- **Autonomous Agents:** Tool-calling AI agents for looking up player records, account states, and FAQ troubleshooting.
+- **Integrations:** Direct API integrations bridging support desks with internal game service databases.
+
+---
+
+#### 🎮 SuperX Hub — Gaming Platform & Player Ecosystem
+An integrated platform unifying player engagement, digital commerce, creator monetization, and live tournament management.
+- **Unified Authentication:** Single sign-on across player web accounts and game server APIs.
+- **Creator Economy:** Creator storefronts, real-time commission tracking, and earnings payout dashboards.
+- **Live Operations:** Dynamic webstore, memberships, digital item synchronization, and live tournament leaderboards with automated prize distribution.
+
+---
+
+#### 🛒 Pasupati / Savikalpa — Headless E-Commerce & Operations Infrastructure
+*Custom full-stack commerce engine and operations platform replacing monolithic limitations with modular headless services.*
+
+* **Live Deployment:** Production Storefront ([pasupatitailam.com](https://pasupatitailam.com/)) · Backend API ([shop.pasupatitailam.com](https://shop.pasupatitailam.com/))
+* **Core Architecture:** Built with **Medusa v2.8.3** and **NestJS / Next.js**, running on **Node.js, TypeScript, PostgreSQL (Prisma & MikroORM), and Redis**.
+* **Multi-Gateway Payment Infrastructure:**
+  - Full lifecycle integration for Indian payment gateways: **PhonePe, Razorpay, CCAvenue, and PayU**.
+  - Signature-verified webhooks, transaction reconciliation, payment state machines, and automated hosted-gateway refunds.
+* **Indian GST Tax Engine:**
+  - Custom tax provider calculating dual **CGST (2.5%) + SGST (2.5%)** for intra-state and **IGST** routing based on seller/delivery state codes, with tax-inclusive pricing.
+* **Order Automation & Logistics Pipeline:**
+  - Event-driven subscribers listening to `order.placed` and `shipment.created`.
+  - **Shiprocket API** integration for automated adhoc shipment creation, AWB generation, pickup scheduling, and live tracking.
+  - Automated PDF tax invoice generation (**React-PDF**, PDFKit) uploaded to S3-compatible cloud storage and attached to customer emails.
+* **Lifecycle Messaging & Abandoned Cart Recovery:**
+  - Multi-channel notification pipeline using **Nodemailer** (SMTP) and **BytePaper / AiSensy WhatsApp Business API** (order placement, tracking updates with CTA buttons, and payment failure notifications).
+  - Staged abandoned-cart recovery automation at **12-hour, 48-hour, and 7-day** intervals.
+* **Custom Admin Console & Merchandising:**
+  - 30-day abandoned cart administration dashboard with real-time session diagnostics and item calculations.
+  - Single-use coupon verification engine preventing duplicate redemptions via customer metadata tracking.
+  - Injected admin widgets for storefront merchandising: dynamic carousels, health cures, FAQ builders, customer testimonials, and video playlists.
+* **Cloud & Server Infrastructure:**
+  - Multi-container **Docker Compose** release on Azure Linux VM reverse-proxied behind **Nginx** with SSL termination and BullMQ background workers.
+
+---
+
+#### 🏆 Tournament Management System
+High-concurrency esports tournament operations engine.
+- Backed by PostgreSQL with optimized relational schemas for teams, invitations, and brackets.
+- Automated scheduled scoring calculations, dynamic seedings, and live competitive leaderboards.
+
+---
+
+#### 📊 Game Administration & Automation Suite
+Suite of internal operational tools, administrative dashboards, and telemetry workflows designed to support game masters and community managers across live game events and operational audits.
+
+---
+
+### 🧠 Currently Exploring & Deep Diving
+
+- ⚡ **Lightweight & Specialized LLMs:** Deploying cost-effective, high-throughput SLMs / quantized open models for targeted enterprise tasks.
+- 🧩 **Agentic Architectures & MCP:** Building tool-augmented autonomous agents leveraging the Model Context Protocol.
+- 🔍 **Advanced Retrieval Systems:** Hybrid sparse/dense retrieval, re-ranking strategies, and chunking heuristics for domain-specific RAG.
+- 🏗️ **Resilient Distributed Workflows:** Fault-tolerant event-driven architectures with BullMQ, Redis, and transactional outbox patterns.
+
+---
+
+### 🤝 Connect & Collaborate
+
+I'm always interested in discussing **Forward Deployed Engineering**, **AI Solutions Architecture**, and **Full-Stack Product Systems**.
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-pankaj--842b00230-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pankaj-842b00230)
+[![Email](https://img.shields.io/badge/Email-leecory121%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:leecory121@gmail.com)
+
+*Building useful software, connecting systems, and solving real operational problems.*
+
+</div>
