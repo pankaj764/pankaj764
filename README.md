@@ -60,11 +60,10 @@ I specialize in taking products from an operational bottleneck to a resilient, p
 
 | Metric | Achievement |
 | :---: | :---: |
-| 👥 **58,000+** | Webshop User Signups |
-| 💳 **17,611+** | Successfully Processed Transactions |
+| 👥 **100,000+** | Webshop User Signups |
 | 🎯 **13.72%** | Signup-to-Paying Conversion Rate |
 | 📈 **45%** | Total Game Revenue Driven via Webshop |
-| 🌐 **100K+** | Community Members Supported through Operational Workflows |
+| 🌐 **1 Million+** | Community Members Supported through Operational Workflows |
 
 </div>
 
