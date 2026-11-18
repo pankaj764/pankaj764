@@ -43,12 +43,14 @@ I specialize in taking products from an operational bottleneck to a resilient, p
 
 | Domain | Technologies & Frameworks |
 | :--- | :--- |
-| **Languages** | Python, TypeScript, JavaScript, SQL, HTML5, CSS3 |
+| **Languages** | C#, Python, TypeScript, JavaScript, SQL, HTML5, CSS3 |
+| **Backend & Runtimes** | .NET 10 / ASP.NET Core, Node.js, NestJS, FastAPI, Django, Express.js, RESTful APIs |
 | **AI / LLMs** | OpenAI API, Anthropic Claude, Google Gemini, LangChain, RAG Pipelines, Vector Search, AI Agents, MCP |
 | **Frontend** | Next.js, React, Tailwind CSS, Responsive Web Design |
-| **Backend** | Node.js, NestJS, FastAPI, Django, Express.js, RESTful APIs |
-| **Databases & Cache** | PostgreSQL, Prisma ORM, MikroORM, Supabase, Redis, BullMQ |
-| **Cloud & DevOps** | Microsoft Azure, Docker & Docker Compose, Vercel, Railway, Linux, PM2, GitHub Actions, Nginx |
+| **Databases & Search** | MongoDB, PostgreSQL, Elasticsearch 8, Supabase, Prisma ORM, MikroORM |
+| **Caching, Queues & Workers** | Redis (StackExchange.Redis), BullMQ, Quartz.NET, Distributed Locks |
+| **Gaming & Real-Time** | SignalR, Photon Fusion, Google Play Billing, Apple StoreKit, XSolla |
+| **Cloud & DevOps** | Microsoft Azure, Docker & Docker Compose, Vercel, Railway, Linux, PM2, GitHub Actions, Nginx, Prometheus, OpenTelemetry |
 | **E-Commerce & Payments** | Medusa.js, PhonePe, Razorpay, CCAvenue, PayU, Juspay, Stripe |
 | **Logistics & Messaging** | Shiprocket API, Nodemailer (SMTP), BytePaper / AiSensy WhatsApp API |
 
@@ -76,6 +78,29 @@ AI-assisted player support infrastructure integrating LLM intelligence into real
 - **Core Architecture:** Retrieval-Augmented Generation (RAG) with vector embeddings for instant knowledge retrieval.
 - **Autonomous Agents:** Tool-calling AI agents for looking up player records, account states, and FAQ troubleshooting.
 - **Integrations:** Direct API integrations bridging support desks with internal game service databases.
+
+---
+
+#### 🎮 Indus Battle Royale — Distributed Game Backend & LiveOps Platform (IndusAPI & IndusAdmin)
+*Enterprise distributed game backend and administrative operations ecosystem powering the Indo-futuristic battle royale title Indus.*
+
+- **Architecture & Runtime:** Engineered with **.NET 10 / ASP.NET Core** and **C#**, organized around Clean Architecture and CQRS patterns across independently deployable containerized services.
+- **Primary Data & Caching Tier:** **MongoDB** (primary domain store), **Redis** (caching, pub/sub event bus, and cluster-wide distributed locks), and **Elasticsearch 8** (high-throughput full-text player discovery).
+- **Core Microservices & Background Workers:**
+  - **Indus Main API:** High-throughput client-facing API powering player accounts, social authentication (Google, Apple, Play Store), inventory, gacha loot-box probabilistic systems, progressions, friend systems, and match history.
+  - **Indus.Config.Scheduler:** Background worker utilizing **Quartz.NET** and Redis pub/sub for scheduled, zero-downtime game configuration rollouts (weapons, drop tables, avatar stats, and seasonal events).
+  - **Indus.Leaderboard.Cron:** High-performance cron service periodically snapshotting Redis sorted sets into cached, ranked global and regional player standings.
+  - **Indus.Refund Worker:** Automated fraud prevention worker polling Google Play's `voidedpurchases` API and executing state reversal strategies (`revert`, `modify`, `save-copy`) to maintain game-economy balance.
+- **Custom Dynamic Rules Engine (`Indus.DSL`):**
+  - Engineered a custom Domain-Specific Language (lexer, parser, AST visitor evaluator) to evaluate dynamic game rules, reward modifiers, and personalized offer conditions at runtime without client/server redeployments.
+- **In-App Commerce & Entitlements:**
+  - Multi-platform payment verification covering **Google Play Billing, Apple App Store, XSolla (store & webshop), and Razorpay**.
+  - Cluster-wide Redis distributed locks preventing race conditions in currency consumption, gacha pulls, and promotional code redemptions.
+- **LiveOps & Admin Platform (`IndusAdmin` / `Admin.SuperX`):**
+  - Administrative microservices and UI for player management, economy adjustments, custom room lobbies, live battle royale match telemetry, and tournament match result broadcasts.
+  - Real-time client updates orchestrated through **SignalR** (`Indus.SignalR`) and inbound webhook pipelines for **Photon Fusion** and **XSolla**.
+- **Observability & Telemetry:**
+  - Prometheus `/metrics` exporters for request rates and database connection pools, paired with OpenTelemetry OTLP distributed tracing.
 
 ---
 
