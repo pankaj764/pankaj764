@@ -20,7 +20,7 @@
 
 I am a **Forward Deployed Engineer** with a passion for architecting and deploying end-to-end technology solutions. My experience spans LLM-powered applications, distributed backend architectures, full-stack platforms, high-throughput gaming ecosystems, and custom e-commerce infrastructure.
 
-I specialize in taking products from an operational bottleneck to a resilient, production-ready system — handling everything from technical discovery and systems design to hands-on implementation, cloud deployment, and continuous performance iteration.
+I specialize in taking products from an operational bottleneck to a resilient, production-ready system — handling everything from technical discovery and systems design to hands-on implementation, cloud deployment, and continuous performance iteration. Aside from large-scale enterprise titles, I take pride in building projects **solo end-to-end**: from initial product design and responsive UI/UX to system architecture, database modeling, backend APIs, third-party integrations, and cloud infrastructure.
 
 - 💼 **Current Role:** Community Tech Specialist at **[SuperGaming](https://www.supergaming.com/)**
 - 📍 **Location:** Pune, India
@@ -73,39 +73,43 @@ I specialize in taking products from an operational bottleneck to a resilient, p
 
 ### 💻 Featured Projects
 
+> 💡 **Solo Engineering Highlight:** Aside from the enterprise-scale **Indus Battle Royale** backend platform, all projects below were designed and engineered **100% solo end-to-end** — owning system architecture, database modeling, RESTful APIs, product design, responsive UI/UX, and cloud deployments.
+
 #### 🤖 SuperX Support — AI-Powered Player Support
-AI-assisted player support infrastructure integrating LLM intelligence into real-time live gaming support operations.
+*`Solo Project` · System Architecture · AI Agents & RAG Pipeline · UI Design · Cloud Deployment*
+- AI-assisted player support infrastructure integrating LLM intelligence into real-time live gaming support operations.
 - **Core Architecture:** Retrieval-Augmented Generation (RAG) with vector embeddings for instant knowledge retrieval.
 - **Autonomous Agents:** Tool-calling AI agents for looking up player records, account states, and FAQ troubleshooting.
 - **Integrations:** Direct API integrations bridging support desks with internal game service databases.
 
 ---
 
-#### 🎮 Indus Battle Royale — Distributed Game Backend & LiveOps Platform (IndusAPI & IndusAdmin)
-*Enterprise distributed game backend and administrative operations ecosystem powering the Indo-futuristic battle royale title Indus.*
+#### 🎮 Indus Battle Royale — Distributed Game Backend & LiveOps Platform
+*`Enterprise Platform` · Scalable Multiplayer Game Backend & LiveOps Infrastructure (SuperGaming)*
 
 - **Architecture & Runtime:** Engineered with **.NET 10 / ASP.NET Core** and **C#**, organized around Clean Architecture and CQRS patterns across independently deployable containerized services.
 - **Primary Data & Caching Tier:** **MongoDB** (primary domain store), **Redis** (caching, pub/sub event bus, and cluster-wide distributed locks), and **Elasticsearch 8** (high-throughput full-text player discovery).
 - **Core Microservices & Background Workers:**
-  - **Indus Main API:** High-throughput client-facing API powering player accounts, social authentication (Google, Apple, Play Store), inventory, gacha loot-box probabilistic systems, progressions, friend systems, and match history.
-  - **Indus.Config.Scheduler:** Background worker utilizing **Quartz.NET** and Redis pub/sub for scheduled, zero-downtime game configuration rollouts (weapons, drop tables, avatar stats, and seasonal events).
-  - **Indus.Leaderboard.Cron:** High-performance cron service periodically snapshotting Redis sorted sets into cached, ranked global and regional player standings.
-  - **Indus.Refund Worker:** Automated fraud prevention worker polling Google Play's `voidedpurchases` API and executing state reversal strategies (`revert`, `modify`, `save-copy`) to maintain game-economy balance.
-- **Custom Dynamic Rules Engine (`Indus.DSL`):**
+  - **Core Client API:** High-throughput API powering player accounts, social authentication (Google, Apple, Play Store), inventory, gacha loot-box probabilistic systems, progressions, friend systems, and match history.
+  - **Configuration Scheduler Worker:** Background worker utilizing **Quartz.NET** and Redis pub/sub for scheduled, zero-downtime game configuration rollouts (weapons, drop tables, avatar stats, and seasonal events).
+  - **Leaderboard Snapshot Worker:** High-performance cron service periodically snapshotting Redis sorted sets into cached, ranked global and regional player standings.
+  - **Automated Refund & Fraud Reconciliation Worker:** Background engine polling Google Play's `voidedpurchases` API and executing state reversal strategies (`revert`, `modify`, `save-copy`) to maintain game-economy balance.
+- **Custom Dynamic Rules Engine (DSL):**
   - Engineered a custom Domain-Specific Language (lexer, parser, AST visitor evaluator) to evaluate dynamic game rules, reward modifiers, and personalized offer conditions at runtime without client/server redeployments.
 - **In-App Commerce & Entitlements:**
   - Multi-platform payment verification covering **Google Play Billing, Apple App Store, XSolla (store & webshop), and Razorpay**.
   - Cluster-wide Redis distributed locks preventing race conditions in currency consumption, gacha pulls, and promotional code redemptions.
-- **LiveOps & Admin Platform (`IndusAdmin` / `Admin.SuperX`):**
+- **LiveOps & Admin Operations Platform:**
   - Administrative microservices and UI for player management, economy adjustments, custom room lobbies, live battle royale match telemetry, and tournament match result broadcasts.
-  - Real-time client updates orchestrated through **SignalR** (`Indus.SignalR`) and inbound webhook pipelines for **Photon Fusion** and **XSolla**.
+  - Real-time client updates orchestrated through **SignalR** and inbound webhook pipelines for **Photon Fusion** and **XSolla**.
 - **Observability & Telemetry:**
   - Prometheus `/metrics` exporters for request rates and database connection pools, paired with OpenTelemetry OTLP distributed tracing.
 
 ---
 
 #### 🎮 SuperX Hub — Gaming Platform & Player Ecosystem
-An integrated platform unifying player engagement, digital commerce, creator monetization, and live tournament management.
+*`Solo Project` · Product & UI/UX Design · Full-Stack Platform Architecture · Game API Integrations · LiveOps*
+- An integrated platform unifying player engagement, digital commerce, creator monetization, and live tournament management.
 - **Unified Authentication:** Single sign-on across player web accounts and game server APIs.
 - **Creator Economy:** Creator storefronts, real-time commission tracking, and earnings payout dashboards.
 - **Live Operations:** Dynamic webstore, memberships, digital item synchronization, and live tournament leaderboards with automated prize distribution.
@@ -113,7 +117,7 @@ An integrated platform unifying player engagement, digital commerce, creator mon
 ---
 
 #### 🛒 Pasupati / Savikalpa — Headless E-Commerce & Operations Infrastructure
-*Custom full-stack commerce engine and operations platform replacing monolithic limitations with modular headless services.*
+*`Solo Project` · Complete Systems Architecture · Custom Backend & Workflows · Next.js Storefront & Admin UI · DevOps*
 
 * **Live Deployment:** Production Storefront ([pasupatitailam.com](https://pasupatitailam.com/)) · Backend API ([shop.pasupatitailam.com](https://shop.pasupatitailam.com/))
 * **Core Architecture:** Built with **Medusa v2.8.3** and **NestJS / Next.js**, running on **Node.js, TypeScript, PostgreSQL (Prisma & MikroORM), and Redis**.
@@ -139,14 +143,16 @@ An integrated platform unifying player engagement, digital commerce, creator mon
 ---
 
 #### 🏆 Tournament Management System
-High-concurrency esports tournament operations engine.
+*`Solo Project` · Database Schema Design · Scoring Calculations Engine · Admin UI · Background Automation*
+- High-concurrency esports tournament operations engine.
 - Backed by PostgreSQL with optimized relational schemas for teams, invitations, and brackets.
 - Automated scheduled scoring calculations, dynamic seedings, and live competitive leaderboards.
 
 ---
 
 #### 📊 Game Administration & Automation Suite
-Suite of internal operational tools, administrative dashboards, and telemetry workflows designed to support game masters and community managers across live game events and operational audits.
+*`Solo Project` · Internal Tooling Design · Operations Dashboard UI · Telemetry & Automation Workflows*
+- Suite of internal operational tools, administrative dashboards, and telemetry workflows designed to support game masters and community managers across live game events and operational audits.
 
 ---
 
