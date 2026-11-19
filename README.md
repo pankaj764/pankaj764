@@ -18,9 +18,13 @@
 
 ### 📌 About Me
 
-I am a **Forward Deployed Engineer** with a passion for architecting and deploying end-to-end technology solutions. My experience spans LLM-powered applications, distributed backend architectures, full-stack platforms, high-throughput gaming ecosystems, and custom e-commerce infrastructure.
+I am a **Forward Deployed Engineer** driven by end-to-end product ownership and systems impact. My experience spans LLM-powered applications, distributed backend architectures, full-stack platforms, high-throughput gaming ecosystems, and custom e-commerce infrastructure.
 
-I specialize in taking products from an operational bottleneck to a resilient, production-ready system — handling everything from technical discovery and systems design to hands-on implementation, cloud deployment, and continuous performance iteration. Aside from large-scale enterprise titles, I take pride in building projects **solo end-to-end**: from initial product design and responsive UI/UX to system architecture, database modeling, backend APIs, third-party integrations, and cloud infrastructure.
+I specialize in taking products from an operational problem to a resilient, production-ready solution. I don't just write code for isolated tickets — I operate with complete **product ownership**:
+- **Discover & Scope:** Understanding raw operational bottlenecks, business objectives, and user friction points through direct stakeholder engagement.
+- **Architect & Build:** Designing scalable system architectures, relational/NoSQL schemas, high-performance APIs, and intuitive, responsive user interfaces independently from the ground up.
+- **Deploy to Production:** Orchestrating cloud environments, automated CI/CD pipelines, containerized deployments, and background worker infrastructure.
+- **Iterate on Real Feedback:** Gathering feedback directly from operations teams, game masters, creators, and end-users to redesign workflows, optimize performance, and continuously evolve software in live production.
 
 - 💼 **Current Role:** Community Tech Specialist at **[SuperGaming](https://www.supergaming.com/)**
 - 📍 **Location:** Pune, India
@@ -73,19 +77,17 @@ I specialize in taking products from an operational bottleneck to a resilient, p
 
 ### 💻 Featured Projects
 
-> 💡 **Solo Engineering Highlight:** Aside from the enterprise-scale **Indus Battle Royale** backend platform, all projects below were designed and engineered **100% solo end-to-end** — owning system architecture, database modeling, RESTful APIs, product design, responsive UI/UX, and cloud deployments.
-
 #### 🤖 SuperX Support — AI-Powered Player Support
-*`Solo Project` · System Architecture · AI Agents & RAG Pipeline · UI Design · Cloud Deployment*
-- AI-assisted player support infrastructure integrating LLM intelligence into real-time live gaming support operations.
-- **Core Architecture:** Retrieval-Augmented Generation (RAG) with vector embeddings for instant knowledge retrieval.
-- **Autonomous Agents:** Tool-calling AI agents for looking up player records, account states, and FAQ troubleshooting.
-- **Integrations:** Direct API integrations bridging support desks with internal game service databases.
+*Autonomous player support and live knowledge retrieval infrastructure.*
+
+- **Product Ownership:** Conceived and built independently to resolve critical player support bottlenecks during live game operations. Owned technical discovery directly with player operations, designed the RAG retrieval pipeline, built the agent tooling interfaces, and continuously iterated on prompt engineering and routing logic based on live ticket resolution metrics and operator feedback.
+- **Architecture & AI Agents:** High-accuracy RAG pipeline leveraging semantic embeddings and vector search, paired with tool-calling autonomous agents capable of querying player account states, item ownership, and transaction histories in real time.
+- **Operational Integration:** Bi-directionally connected with internal game databases and support desks, transforming manual ticket reviews into instant, accurate automated resolutions.
 
 ---
 
 #### 🎮 Indus Battle Royale — Distributed Game Backend & LiveOps Platform
-*`Enterprise Platform` · Scalable Multiplayer Game Backend & LiveOps Infrastructure (SuperGaming)*
+*High-concurrency distributed backend and administrative operations ecosystem powering the battle royale title Indus.*
 
 - **Architecture & Runtime:** Engineered with **.NET 10 / ASP.NET Core** and **C#**, organized around Clean Architecture and CQRS patterns across independently deployable containerized services.
 - **Primary Data & Caching Tier:** **MongoDB** (primary domain store), **Redis** (caching, pub/sub event bus, and cluster-wide distributed locks), and **Elasticsearch 8** (high-throughput full-text player discovery).
@@ -108,51 +110,57 @@ I specialize in taking products from an operational bottleneck to a resilient, p
 ---
 
 #### 🎮 SuperX Hub — Gaming Platform & Player Ecosystem
-*`Solo Project` · Product & UI/UX Design · Full-Stack Platform Architecture · Game API Integrations · LiveOps*
-- An integrated platform unifying player engagement, digital commerce, creator monetization, and live tournament management.
-- **Unified Authentication:** Single sign-on across player web accounts and game server APIs.
-- **Creator Economy:** Creator storefronts, real-time commission tracking, and earnings payout dashboards.
-- **Live Operations:** Dynamic webstore, memberships, digital item synchronization, and live tournament leaderboards with automated prize distribution.
+*Integrated player web portal connecting community engagement, digital commerce, creator monetization, and esports.*
+
+- **Product Ownership:** Architected and developed the platform independently from initial concept to live release. Gathered feedback directly from creators, esports organizers, and community members, redesigning creator storefront flows and tournament payout dashboards to significantly boost engagement and webshop retention.
+- **Unified Authentication:** Seamless single sign-on integrating player web accounts with game server APIs for real-time inventory and reward synchronization.
+- **Creator Economy & Webstore:** Built creator storefronts with real-time commission tracking, earnings withdrawal flows, and dynamic digital commerce webshops.
+- **Live Tournament Sync:** Automated live leaderboards, real-time rankings, and scheduled tournament reward calculations.
 
 ---
 
 #### 🛒 Pasupati / Savikalpa — Headless E-Commerce & Operations Infrastructure
-*`Solo Project` · Complete Systems Architecture · Custom Backend & Workflows · Next.js Storefront & Admin UI · DevOps*
+*Custom full-stack headless commerce architecture and operations platform engineered from scratch.*
 
-* **Live Deployment:** Production Storefront ([pasupatitailam.com](https://pasupatitailam.com/)) · Backend API ([shop.pasupatitailam.com](https://shop.pasupatitailam.com/))
-* **Core Architecture:** Built with **Medusa v2.8.3** and **NestJS / Next.js**, running on **Node.js, TypeScript, PostgreSQL (Prisma & MikroORM), and Redis**.
-* **Multi-Gateway Payment Infrastructure:**
+- **Product Ownership:** Conceived and delivered independently to replace the rigidity and limitations of monolithic platforms. Drove the full technical lifecycle: discovering business and operational requirements, architecting custom Indian payment and tax state machines, designing both customer storefront and administrative interfaces, deploying to cloud infrastructure, and iteratively refining checkout and recovery flows based on real cart-abandonment data.
+- **Live Deployment:** Production Storefront ([pasupatitailam.com](https://pasupatitailam.com/)) · Backend API ([shop.pasupatitailam.com](https://shop.pasupatitailam.com/))
+- **Core Architecture:** Built with **Medusa v2.8.3** and **NestJS / Next.js**, running on **Node.js, TypeScript, PostgreSQL (Prisma & MikroORM), and Redis**.
+- **Multi-Gateway Payment Infrastructure:**
   - Full lifecycle integration for Indian payment gateways: **PhonePe, Razorpay, CCAvenue, and PayU**.
   - Signature-verified webhooks, transaction reconciliation, payment state machines, and automated hosted-gateway refunds.
-* **Indian GST Tax Engine:**
+- **Indian GST Tax Engine:**
   - Custom tax provider calculating dual **CGST (2.5%) + SGST (2.5%)** for intra-state and **IGST** routing based on seller/delivery state codes, with tax-inclusive pricing.
-* **Order Automation & Logistics Pipeline:**
+- **Order Automation & Logistics Pipeline:**
   - Event-driven subscribers listening to `order.placed` and `shipment.created`.
   - **Shiprocket API** integration for automated adhoc shipment creation, AWB generation, pickup scheduling, and live tracking.
   - Automated PDF tax invoice generation (**React-PDF**, PDFKit) uploaded to S3-compatible cloud storage and attached to customer emails.
-* **Lifecycle Messaging & Abandoned Cart Recovery:**
+- **Lifecycle Messaging & Abandoned Cart Recovery:**
   - Multi-channel notification pipeline using **Nodemailer** (SMTP) and **BytePaper / AiSensy WhatsApp Business API** (order placement, tracking updates with CTA buttons, and payment failure notifications).
   - Staged abandoned-cart recovery automation at **12-hour, 48-hour, and 7-day** intervals.
-* **Custom Admin Console & Merchandising:**
+- **Custom Admin Console & Merchandising:**
   - 30-day abandoned cart administration dashboard with real-time session diagnostics and item calculations.
   - Single-use coupon verification engine preventing duplicate redemptions via customer metadata tracking.
   - Injected admin widgets for storefront merchandising: dynamic carousels, health cures, FAQ builders, customer testimonials, and video playlists.
-* **Cloud & Server Infrastructure:**
+- **Cloud & Server Infrastructure:**
   - Multi-container **Docker Compose** release on Azure Linux VM reverse-proxied behind **Nginx** with SSL termination and BullMQ background workers.
 
 ---
 
 #### 🏆 Tournament Management System
-*`Solo Project` · Database Schema Design · Scoring Calculations Engine · Admin UI · Background Automation*
-- High-concurrency esports tournament operations engine.
-- Backed by PostgreSQL with optimized relational schemas for teams, invitations, and brackets.
-- Automated scheduled scoring calculations, dynamic seedings, and live competitive leaderboards.
+*Competitive esports tournament engine and automated operational platform.*
+
+- **Product Ownership:** Designed and engineered independently to eliminate manual spreadsheet management across competitive leagues. Collaborated directly with tournament organizers, incorporating feedback on complex scoring scenarios and iteratively revamping bracket structures and leaderboard calculations.
+- **High-Concurrency Engine:** PostgreSQL-backed relational schemas optimized for high-volume match submissions, team profiles, and invitations.
+- **Scoring Automation:** Automated scheduled scoring calculations, dynamic seedings, and live competitive rankings.
 
 ---
 
 #### 📊 Game Administration & Automation Suite
-*`Solo Project` · Internal Tooling Design · Operations Dashboard UI · Telemetry & Automation Workflows*
-- Suite of internal operational tools, administrative dashboards, and telemetry workflows designed to support game masters and community managers across live game events and operational audits.
+*Internal live operations console, player auditing, and telemetry automation suite.*
+
+- **Product Ownership:** Conceived and developed independently in direct partnership with live game masters and community teams. Built tools focused squarely on daily operational pain points, continuously gathering staff feedback to redesign telemetry dashboards and automate repetitive administrative workflows.
+- **Operational Console:** Centralized administrative dashboards providing live game telemetry, player audit histories, and granular account actions.
+- **LiveOps Automation:** Automated scheduled background jobs, anti-fraud verifications, and event monitoring scripts supporting 100K+ community operations.
 
 ---
 
